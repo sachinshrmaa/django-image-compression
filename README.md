@@ -2,6 +2,20 @@
 
 Storage is one of the essential pieces of web app development and needs to be paid special attention as it attracts server costs. If you have to pay for the storage costs of your web apps that involve images or any other non-text content it is better to focus on compression to reduce storage costs and scale at ease. This post discusses the image compression (lossy) in Django in detail and demonstrates an example of its implementation. You can find all the implementation details here.
 
+### Image Compression 
+
+************* Before *****************
+
+img : painting.jpg
+size : 268.92 kb
+
+************* After ******************
+
+img : painting.jpg
+size : 107.75 KB
+
+
+
 
 ### What is compression?
 
